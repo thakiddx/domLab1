@@ -1,0 +1,74 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    text-align: center;
+  }
+  header {
+    background-color: hsl(182, 41%, 38%);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  form {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+  }
+  
+  footer {
+    background-color: hsl(182, 41%, 38%);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  div.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: auto;
+  }
+
+  image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  div.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: auto;
+
+  }
+
+  p {
+  text-align: center;
+  }
+
+  div.headerButtons {
+    text-align: center;
+  }
+
+  button#changeText {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  input#inputText {
+    display: inline-block;
+    margin: 10px;
+  }
